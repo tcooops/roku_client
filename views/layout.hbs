@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roku Flashback</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main id="app">
+    <div class="main-container">
+        <h1>Welcome to Roku Flashback!</h1>
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">All Movies</a></li>
+                    <li><a href="">Kids</a></li>
+                    <li><a href="">More</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h3>Please login or create an account.</h3>
+
+        <!-- this is where handlebars will inject its templates. Much like a php include statement -->
+        {{{ body }}}
+    </div>
+    </main>
+<script defer type="module" src="scripts/main.js"></script>
+</body>
+</html>
